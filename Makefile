@@ -40,7 +40,7 @@ SAMPLE_SRC_FILENAME		= "test/src/dummy-test-to-erase.js"
 %.min.js: %.js
 	@$(MINIFIER) $(MINIFIER_FLAGS) $<
 
-all: stop check-dependencies update
+all: check-dependencies update
 
 update: update-git update-npm minify-clean minify test closer
 
