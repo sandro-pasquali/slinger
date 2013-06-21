@@ -1,0 +1,16 @@
+{
+	"name": "slinger",
+	"version": "0.1.0",
+	"description": "Module management packaging and delivery with Node",
+	"keywords": ["module","nodejs"],
+	"homepage": "",
+	"author": "Sandro Pasquali <spasquali@gmail.com>",
+	"dependencies": {
+		"connect"		: "*",
+		"express"		: "*",
+		"commander"		: "*",
+		"should"		: "*",
+		"mocha"			: "*"
+	},
+	"engine": "node >= 0.10.10"
+}

@@ -1,0 +1,1 @@
+{"js":"slinger.init(function(){console.log(\"An `example` module with id of `\"+this.id+\"` was initialized\")});\n","html":"<div class=\"color:red\">Hello from Example!</div>\n"}

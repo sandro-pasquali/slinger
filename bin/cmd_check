@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# If you need certain system programs installed, add those here -- we are checking if
+# programs are available via command line. For example:
+# 
+# NEEDED_COMMANDS="java curl"
+
+NEEDED_COMMANDS="node"
+
+for cmd in ${NEEDED_COMMANDS} ; do
+    if ! command -v ${cmd} &> /dev/null ; then
+        echo MISSING DEPENDENCY +++ Please install ${cmd}
+        exit -1
+    fi
+done
